@@ -1,0 +1,198 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis:400,500';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+.page{
+  max-width: 980px;
+  margin: 12px auto 0 auto;
+}
+
+.page_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.page_header .logo a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.page_header .logo h1{
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+
+.page_nav ul{
+  display: flex;
+}
+
+.page_nav li{
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.page_nav a{
+  display: block;
+  padding: 12px 24px;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  font-size: 1.1em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.page_nav .search_button{
+  height: 24px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.page_nav .search_button:hover{
+  cursor: pointer;
+}
+
+.page_nav .search_button img{
+  height: inherit;
+}
+
+
+.page_nav a:hover{
+  border-bottom: 1px solid #2CC4FF;
+}
+
+#header_search_bar{
+  display: none;
+  margin: 18px 0 21px 0;
+  padding: 7px 16px 16px 16px;
+  background-color: #D3D3D3;
+}
+
+#header_search_bar input.input_search_bar{
+  width: 95%;
+  font-size: 2em;
+  border: none;
+  outline: none;
+}
+
+#header_search_bar input[type="image"]{
+  box-sizing: border-box;
+  height: 39px;
+  padding: 6px;
+  background-color: #FFFFFF;
+  position: relative;
+  top: 9px;
+  right: 4px;
+}
+
+.page_footer{
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #141414;
+  color: #eeeeee;
+}
+
+/*Home*/
+
+.page_content .headlines{
+  display: flex;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.page_content .headlines .head_news{
+  width: auto;
+  margin-right: 12px;
+  padding-right: 12px;
+  border-right: 1px solid #D3D3D3;
+}
+
+.page_content .headlines .head_news h3{
+  font-size: 2.3em;
+  text-transform: capitalize;
+}
+
+.page_content .headlines .head_news h4{
+  margin-left: 32px;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.page_content .headlines .news_list{
+  width: 100%;
+}
+
+.page_content .headlines .news_list li{
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #D3D3D3
+}
+
+a.page_link{
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+
+a.page_link:hover{
+  color: #2CC4FF;
+}
+
+.page_content .headlines .news_list a{
+  padding: 8px 0;
+  font-size: 1.1em;
+}
+
+.page_content .bullet_news{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.page_content .bullet_news article{
+  margin: 0 24px 8px 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #D3D3D3
+}
+
+
+/*TEMP*/
+
+.pokemon{
+  display: flex;
+}
+
+.pokemon header{
+  display: flex;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.pokemon h3{
+  font-size: 2.8em;
+}
+
+.pokemon img{
+  height: 150px;
+  width: auto;
+}

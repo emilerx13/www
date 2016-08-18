@@ -1,0 +1,95 @@
+.main_content{
+  padding: 32px 24px 32px 0;
+}
+
+.mangalicious_news{
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.mangalicious_news .article_body{
+  width: 85%;
+  order: 2;
+  margin-bottom: 18px;
+}
+
+.mangalicious_news h3{
+  margin-bottom: 6px;
+  font-size: 17px;
+  color: #ff0000;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  text-shadow: 0 0 2px rgba(0,0,0,0.3);
+  font-weight: bold;
+}
+
+.mangalicious_news .article_body p{
+  width: 100%;
+  margin-bottom: 12px;
+  line-height: 1.5em;
+}
+
+.mangalicious_news .article_body p:last-of-type{
+  margin-bottom: 0;
+}
+
+.mangalicious_news .date{
+  width: 60px;
+  height: 40px;
+  display: inline-block;
+  align-self: flex-start;
+  position: relative;
+  right: 42px;
+  bottom: 22px;
+  padding: 16px 8px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 7px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1em;
+  font-size: 12px;
+}
+
+.mangalicious_news .date p{
+  margin-top: 0.3em;
+}
+
+.mangalicious_news .date p:first-child{
+  font-size: 26px;
+  margin-top: 0;
+}
+
+.aside_content .album{
+  line-height: 1.3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside_content h3{
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #ff0000;
+  letter-spacing: 0.11em;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.aside_content .album h4{
+  font-size: 1.1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.aside_content .album img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 6px;
+}
+
+.aside_content .album a{
+  margin-top: 6px;
+  font-style: italic;
+  color: #ff0000;
+  text-decoration: none;
+  align-self: flex-end;
+}

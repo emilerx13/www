@@ -1,0 +1,48 @@
+.newsletter .form_radio{
+  justify-content: flex-end;
+}
+
+.newsletter .form_radio > *:last-child, .newsletter .form_submit > *:last-child, .contact .form_submit > *:last-child{
+  margin-left: 24px;
+}
+
+.newsletter label, .contact label{
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.contact .form_submit input[type="reset"]{
+  width: auto;
+  height: auto;
+  padding: 0 4px;
+  background: rgba(0,0,0,0);
+  border-radius: 0;
+  border: 1px solid #ff0000;
+  font-family: 'Lucida Sans Unicode', sans-serif;
+  color: #ff0000;
+  text-transform: uppercase;
+}
+
+.newsletter .form_radio input{
+  width: auto;
+  height: auto;
+}
+
+.newsletter form > div input, .contact form > div input, .contact form > div textarea{
+  width: 300px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+
+.contact form > div textarea{
+  resize: none;
+  height: 100px;
+  padding: 0;
+}
+
+.ads{
+  width: 160px;
+  height: 533px;
+  background: url('../img/kontakt/flashdummy.png') no-repeat;
+}
